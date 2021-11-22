@@ -3,6 +3,9 @@ site_url: 'https://docs.ecoplay.xyz/'
 site_description: 'The official documentation for the Roleplaying Economy website EcoPlay.'
 site_author: 'Harry Smith'
 
+markdown_extensions:
+    - admonition
+
 nav:
     - Home: 'index.md'
     - User Guide:
