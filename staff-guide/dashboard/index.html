@@ -92,12 +92,95 @@
     
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#admin-dashboard" class="nav-link">Admin Dashboard</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#how-to-add-money-to-an-account" class="nav-link">How to add money to an account</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#how-to-add-properties-to-an-account" class="nav-link">How to add properties to an account</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#how-to-deleteedit-properties" class="nav-link">How to delete/edit properties</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#tasks" class="nav-link">Tasks</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
         </ul>
     </div>
 </div></div>
                     <div class="col-md-9" role="main">
 
-</div>
+<h1 id="admin-dashboard">Admin Dashboard</h1>
+<p>The admin dashboard is very simple. In this section, I will outline several features and how you can do them.</p>
+<h2 id="how-to-add-money-to-an-account">How to add money to an account</h2>
+<h3 id="via-dashboard">Via Dashboard</h3>
+<ol>
+<li>Go to admin dashboard</li>
+<li>Go to Bank accounts</li>
+<li>Search player</li>
+<li>Click the options dropdown and click edit.</li>
+<li>In this edit box you can set the balance.</li>
+</ol>
+<h3 id="via-bot">Via Bot</h3>
+<ol>
+<li><code>$egive &lt;player: mention/ID&gt; &lt;amount&gt;</code></li>
+</ol>
+<h2 id="how-to-add-properties-to-an-account">How to add properties to an account</h2>
+<h3 id="via-dashboard_1">Via Dashboard</h3>
+<ol>
+<li>Go to admin dashboard</li>
+<li>Go to Properties</li>
+<li>Click the <code>+</code> icon</li>
+<li>Fill out the information and press Create Property.</li>
+</ol>
+<div class="admonition note"></div>
+<p>You can put a property on the market via not putting in a property owner.</p>
+<h3 id="via-bot_1">Via Bot</h3>
+<ol>
+<li>Create the property via <code>$ecreate-property &lt;property value&gt; &lt;property name&gt;</code></li>
+<li>User will have to <code>$ebuy-property &lt;property name&gt;</code></li>
+</ol>
+<div class="admonition note"></div>
+<p>Property names are CaSe SeNsitIvE</p>
+<h2 id="how-to-deleteedit-properties">How to delete/edit properties</h2>
+<div class="admonition note"></div>
+<p>This can only be done via dashboard.</p>
+<ol>
+<li>Go to admin dashboard</li>
+<li>Go to properties</li>
+<li>Find the property</li>
+<li>Click the dropdown option</li>
+<li>You can find the settings per property there</li>
+</ol>
+<hr />
+<h2 id="tasks">Tasks</h2>
+<p>Tasks are used to give or take money from a certain role or person every x days. You can create one on both the discord bot or dashboard.</p>
+<h3 id="create-a-task">Create a task</h3>
+<h4 id="via-dashboard_2">Via Dashboard</h4>
+<ol>
+<li>Go to admin dashboard</li>
+<li>Go to tasks</li>
+<li>Click <code>+</code> sign.</li>
+</ol>
+<h4 id="via-bot_2">Via Bot</h4>
+<ol>
+<li><code>$ecreate-task &lt;target&gt; &lt;amount&gt; &lt;frequency&gt;</code></li>
+</ol>
+<h3 id="delete-a-task">Delete a task</h3>
+<h4 id="via-dashboard_3">Via Dashboard</h4>
+<ol>
+<li>Go to admin dashboard</li>
+<li>Go to tasks</li>
+<li>Press the bin icon</li>
+</ol></div>
             </div>
         </div>
 
