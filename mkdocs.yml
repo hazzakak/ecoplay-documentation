@@ -1,0 +1,15 @@
+site_name: EcoPlay Documentation
+site_url: 'https://docs.ecoplay.xyz/'
+site_description: 'The official documentation for the Roleplaying Economy website EcoPlay.'
+site_author: 'Harry Smith'
+
+nav:
+    - Home: 'index.md'
+    - User Guide:
+      - User Dashboard: 'user-guide/dashboard.md'
+    - Staff Guide:
+      - Admin Dashboard: 'staff-guide/dashboard.md'
+
+theme:
+    name: mkdocs
+    hljs_style: 
