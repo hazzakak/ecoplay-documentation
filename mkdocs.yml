@@ -9,11 +9,11 @@ markdown_extensions:
 nav:
     - Home: 'index.md'
     - User Guide:
-      - Dashboard Tutorial: 'user-guide/dashboard.md'
+      - How to - dashboard: 'user-guide/dashboard.md'
     - Staff Guide:
-      - Setup: 'staff-guide/setup.,d'
-      - Dashboard Tutorial: 'staff-guide/dashboard.md'
+      - Setup: 'staff-guide/setup.md'
+      - How to - dashboard: 'staff-guide/dashboard.md'
     - Back to EcoPlay: 'https://ecoplay.xyz'
 
 theme:
-    name: mkdocs
+  name: material

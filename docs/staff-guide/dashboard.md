@@ -18,17 +18,17 @@ The admin dashboard is very simple. In this section, I will outline several feat
 2. Go to Properties
 3. Click the `+` icon
 4. Fill out the information and press Create Property.
-!!! note ""
+!!! note
     You can put a property on the market via not putting in a property owner.
 
 ### Via Bot ###
 1. Create the property via `$ecreate-property <property value> <property name>`
 2. User will have to `$ebuy-property <property name>`
-!!! note ""
+!!! note
     Property names are CaSe SeNsitIvE
 
 ## How to delete/edit properties ##
-!!! note ""
+!!! note
     This can only be done via dashboard.
 
 1. Go to admin dashboard
