@@ -6,10 +6,6 @@ site_author: 'Harry Smith'
 markdown_extensions:
     - admonition
 
-plugins:
-    - search
-    - macros
-
 nav:
     - Home: 'index.md'
     - User Guide:
