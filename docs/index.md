@@ -3,6 +3,8 @@ Documentation
 
 This documentation will outline the features, tutorials and explanations for EcoPlay so you can use it to the best of your ability and to EcoPlay's ability.
 
+You can find extra support in our [discord server](https://u.harrysmith.dev/jbot), here you can also suggest new features.
+
 Setup
 =====
 
