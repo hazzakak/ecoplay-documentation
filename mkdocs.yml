@@ -12,7 +12,10 @@ nav:
     - User Guide:
       - How to - dashboard: 'user-guide/dashboard.md'
     - Staff Guide:
-      - How to - dashboard: 'staff-guide/dashboard.md'
+      - How to - accounts: '/staff-guide/dashboard/#accounts'
+      - How to - properties: '/staff-guide/dashboard/#properties'
+      - How to - tasks: '/staff-guide/dashboard/#tasks'
+
     - Back to EcoPlay: 'https://ecoplay.xyz'
 
 theme:
