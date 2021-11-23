@@ -67,7 +67,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#documentation" class="md-skip">
+        <a href="#macro-rendering-error" class="md-skip">
           Skip to content
         </a>
       
@@ -285,7 +285,7 @@
   
   
     <li class="md-nav__item">
-      <a href="staff-guide/setup.md" class="md-nav__link">
+      <a href="staff-guide/installation/" class="md-nav__link">
         Setup
       </a>
     </li>
@@ -360,8 +360,23 @@
               
                 
                 
-                <h1 id="documentation">Documentation</h1>
-<p>This documentation will outline the features, tutorials and explanations for EcoPlay so you can use it to the best of your ability and to EcoPlay's ability.</p>
+                <h1 id="macro-rendering-error"><em>Macro Rendering Error</em></h1>
+<p><strong>TemplateNotFound</strong>: ../staff-guide/installation.md</p>
+<pre><code>Traceback (most recent call last):
+  File &quot;c:\users\smith\appdata\local\programs\python\python39\lib\site-packages\mkdocs_macros\plugin.py&quot;, line 449, in render
+    return md_template.render(**page_variables)
+  File &quot;c:\users\smith\appdata\local\programs\python\python39\lib\site-packages\jinja2\environment.py&quot;, line 1304, in render
+    self.environment.handle_exception()
+  File &quot;c:\users\smith\appdata\local\programs\python\python39\lib\site-packages\jinja2\environment.py&quot;, line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File &quot;&lt;template&gt;&quot;, line 6, in top-level template code
+  File &quot;c:\users\smith\appdata\local\programs\python\python39\lib\site-packages\jinja2\loaders.py&quot;, line 194, in get_source
+    pieces = split_template_path(template)
+  File &quot;c:\users\smith\appdata\local\programs\python\python39\lib\site-packages\jinja2\loaders.py&quot;, line 35, in split_template_path
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: ../staff-guide/installation.md
+
+</code></pre>
                 
               
               
